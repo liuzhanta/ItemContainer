@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context="com.zterry.itemcontainerdemo.MainActivity">
+
+    <com.zterry.itemcontainer.ItemContainer
+        android:layout_width="wrap_content"
+        app:ItemLocationType="single"
+        android:layout_height="@dimen/single_item_container_height">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/gray_800"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:text="ItemContainer"
+            android:layout_height="wrap_content" />
+    </com.zterry.itemcontainer.ItemContainer>
+
+    <com.zterry.itemcontainer.SingleItemContainer
+        android:id="@+id/single_item_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_item_container_height"
+        app:ItemLocationType="single"
+        android:layout_marginTop="16dp"
+        app:title="SingleItemContainer-Single"
+        app:titleDrawableLeft="@drawable/ic_change_history_red_300_24dp"
+        app:titleTextColor="@color/gray_800" />
+
+    <com.zterry.itemcontainer.SingleItemContainer
+        android:id="@+id/single_item_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_item_container_height"
+        android:layout_marginTop="20dp"
+        app:ItemLocationType="top"
+        app:title="SingleItemContainer-Top"
+        app:titleDrawableLeft="@drawable/ic_card_membership_yellow_a400_24dp"
+        app:titleTextColor="@color/gray_800" />
+
+    <com.zterry.itemcontainer.SingleItemContainer
+        android:id="@+id/single_item_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_item_container_height"
+        app:ItemLocationType="middle"
+        app:title="SingleItemContainer-middle"
+        app:titleDrawableLeft="@drawable/ic_donut_large_light_green_500_24dp"
+        app:titleTextColor="@color/gray_800" />
+
+    <com.zterry.itemcontainer.SingleItemContainer
+        android:id="@+id/single_item_4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_item_container_height"
+        app:ItemLocationType="bottom"
+        app:title="SingleItemContainer-Bottom"
+        app:titleDrawableLeft="@drawable/ic_extension_teal_300_24dp"
+        app:titleTextColor="@color/gray_800" />
+
+    <com.zterry.itemcontainer.SingleItemContainer
+        android:id="@+id/single_item_5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_item_container_height"
+        android:layout_marginTop="16dp"
+        app:ItemLocationType="single"
+        app:title="SingleItemContainer-NoArrow"
+        app:noArrow="true"
+        app:titleDrawableLeft="@drawable/ic_group_work_amber_900_24dp"
+        app:titleTextColor="@color/gray_800" />
+
+    <com.zterry.itemcontainer.SingleItemContainer
+        android:id="@+id/single_item_6"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="@dimen/single_item_container_height"
+        app:ItemLocationType="single"
+        app:title="SingleItemContainer-TopLineMargin"
+        app:lineMarginDirection="top"
+        app:titleDrawableLeft="@drawable/ic_polymer_blue_grey_300_24dp"
+        app:titleTextColor="@color/gray_800" />
+
+    <com.zterry.itemcontainer.SingleItemContainer
+        android:id="@+id/single_item_7"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_item_container_height"
+        android:layout_marginTop="16dp"
+        app:ItemLocationType="single"
+        app:title="SingleItemContainer-Content"
+        app:contentLayout="@layout/content_layout"
+        app:titleDrawableLeft="@drawable/ic_group_work_amber_900_24dp"
+        app:titleTextColor="@color/gray_800" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+
+    <color name="background_floating_dark">#ff424242</color>
+    <color name="divider_color_light">#0c000000</color>
+    <color name="divider_color_dark">#0CFFFFFF</color>
+</resources>

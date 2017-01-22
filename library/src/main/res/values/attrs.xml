@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="hasLine" format="boolean" />
+    <attr name="lineMarginDirection">
+        <enum name="top" value="0" />
+        <enum name="bottom" value="1" />
+    </attr>
+
+    <attr name="ItemLocationType">
+        <enum name="single" value="0" />
+        <enum name="top" value="1" />
+        <enum name="middle" value="2" />
+        <enum name="bottom" value="3" />
+        <enum name="none" value="-1" />
+    </attr>
+
+    <declare-styleable name="ItemContainer">
+
+    </declare-styleable>
+
+
+    <declare-styleable name="SingleItemContainer">
+        <attr name="title" format="string" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="titleTextSize" format="reference" />
+        <attr name="titleDrawableLeft" format="reference" />
+        <attr name="noArrow" format="boolean" />
+        <attr name="contentLayout" format="reference" />
+
+    </declare-styleable>
+</resources>
