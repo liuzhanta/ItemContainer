@@ -48,7 +48,7 @@ And you can use ItemContainer like following this:
             app:title="SingleItemContainer-Single"
             app:titleDrawableLeft="@drawable/ic_change_history_red_300_24dp"
             app:titleTextColor="@color/gray_800" />
-For more usage ,you can see the ![ItemContainerDemo](https://github.com/liuzhanta/ItemContainer/tree/master/ItemContainer-Demo)
+For more usage ,you can see the [ItemContainerDemo](https://github.com/liuzhanta/ItemContainer/tree/master/ItemContainer-Demo)
          
             
 
