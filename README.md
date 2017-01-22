@@ -11,7 +11,7 @@ Add the ItemContainer dependency to your build.gradle.
 
 Screen Shot
 -----------
-
+![](https://github.com/liuzhanta/ItemContainer/blob/master/Screenshot.png)
 
 Usage Xml
 ---------
@@ -37,6 +37,20 @@ Usage Xml
 | noArrow             | true or false                 |
 | contentLayout       | reference                     |
 
+And you can use ItemContainer like following this:
+      
+    <com.zterry.itemcontainer.SingleItemContainer
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/single_item_container_height"
+            android:layout_marginTop="16dp"
+            app:noArrow="true"
+            app:ItemLocationType="single"
+            app:title="SingleItemContainer-Single"
+            app:titleDrawableLeft="@drawable/ic_change_history_red_300_24dp"
+            app:titleTextColor="@color/gray_800" />
+For more usage ,you can see the ![ItemContainerDemo](https://github.com/liuzhanta/ItemContainer/tree/master/ItemContainer-Demo)
+         
+            
 
 
 Developed by
